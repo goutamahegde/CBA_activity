@@ -8,3 +8,5 @@ matrix:
       script:  
         - gcc -o test main.c 
         - ./test
+        - gcc -o sorting sorting.c
+        - ./sorting
