@@ -13,7 +13,7 @@ int main()
                   if(a[i]<a[j])
                   {
                         t=a[i];
-                        a[i]=a[j]);
+                        a[i]=a[j];
                         a[j]=t;
                   }
             }
