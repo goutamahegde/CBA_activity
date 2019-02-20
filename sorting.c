@@ -10,16 +10,16 @@ int main()
       {
             for(j=0;j<=i;j++)
             {
-                  if((a+i)<(a+j))
+                  if(a[i]<a[j])
                   {
-                        t=(a+i);
-                        (a+i)=(a+j);
-                        (a+j)=t;
+                        t=a[i];
+                        a[i]=a[j]);
+                        a[j]=t;
                   }
             }
       }
       printf("\nAfter Sorting in Ascending Order: \n");
       for(i=0;i<n;i++)
-      printf("\n%d",(a+i));
+      printf("\n%d",a[i]);
       return 0;
 }
